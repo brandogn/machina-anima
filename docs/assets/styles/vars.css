@@ -1,4 +1,6 @@
 @font-face {
+  font-family: "Base Mono Wide";
+  src: url("../font/BaseMonoWideThin_6014.ttf") format("truetype");
 }
 
 * {
@@ -8,12 +10,10 @@
 
 :root {
   /* Font */
-  /* font-family: Helvetica, Arial, sans-serif; */
   font-family: monospace;
   --font-main: monospace;
-  --font-text: monospace;
+  --font-text: courier, monospace;
   --font-title: Helvetica, Arial, sans-serif;
-
   /* Font Size */
   --XL-font: 50px;
   --L-font: 32px;
@@ -25,10 +25,7 @@
   --icon-size: 50px;
   --pad: 15px;
   --margin: 50px;
-  /* Colors */
-  /* background-color: rgb(214, 235, 234); */
 }
-
 
 @media screen and (max-width: 650px) {
   :root {

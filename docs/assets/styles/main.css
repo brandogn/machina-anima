@@ -146,6 +146,7 @@ html {
 
 .foot *,
 .foot {
+  font-family: var(--font-text);
   font-size: var(--XS-font);
 }
 
@@ -173,6 +174,7 @@ a {
 }
 
 a:hover {
+  font-weight: bold;
   text-shadow: 2px 2px #ff00dd;
   padding: 0px 2px 2px 0px;
 }
