@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -116,6 +120,7 @@
 .text-wrapper iframe {
   display: block;
   margin: 0 auto;
+  max-width: 90%;
 }
 
 .text-wrapper img,
@@ -161,6 +166,15 @@ UNSETING DEFAULTS:
 a {
   color: unset;
   text-decoration: unset;
+}
+
+.url {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-shadow: 2px 2px #ff00dd;
+  padding: 0px 2px 2px 0px;
 }
 
 button {

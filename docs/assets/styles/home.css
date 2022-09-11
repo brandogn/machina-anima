@@ -18,9 +18,10 @@
   margin: 10px;
 }
 
-.sub-title {
+.home .sub-title {
   text-align: center;
 }
+
 
 .spacer {
   opacity: 0;
