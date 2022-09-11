@@ -1,0 +1,173 @@
+@import url("./vars.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: min(1000px, 100%);
+  margin: auto;
+  min-height: 100vh;
+}
+
+.push {
+  flex: 1;
+}
+
+/* ========== Top Bar ========== */
+
+.top-bar {
+  pointer-events: none;
+  position: fixed;
+  top: var(--pad);
+  width: inherit;
+  align-self: flex-start;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  pointer-events: visible;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  font-size: var(--M-font);
+  font-weight: bolder;
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== Content ========== */
+
+.content {
+  flex-direction: column;
+}
+
+.content * {
+  margin: 10px 0;
+}
+
+/* Titles */
+
+.title {
+  font-size: var(--XL-font);
+  font-weight: bolder;
+
+  margin: 100px auto;
+
+  text-align: center;
+  vertical-align: middle;
+  font-family: var(--font-title);
+}
+
+.title-wrapper {
+  position: relative;
+  display: inline;
+  mix-blend-mode: color-dodge;
+}
+
+.title-glow {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  top: calc(var(--XL-font) / 2 - var(--pad));
+  left: 0;
+
+  box-shadow: 0 0 60px 30px #fff, /* inner white */ 0 0 100px 60px #f0f,
+    /* middle magenta */ 0 0 140px 90px #0ff; /* outer cyan */
+  z-index: -1;
+}
+
+/* Texts */
+
+.text-wrapper {
+  margin: var(--margin) auto;
+  text-align: justify;
+  width: min(750px, 100%);
+}
+
+.text-wrapper * {
+  margin: var(--pad) var(--pad);
+}
+
+.sub-title {
+  font-size: var(--L-font);
+  font-weight: bold;
+}
+
+.sub-title .small {
+  font-size: var(--M-font);
+}
+
+.paragraph {
+  font-family: var(--font-text);
+  font-size: var(--N-font);
+}
+
+/* Assets */
+
+.text-wrapper iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-wrapper img,
+.text-wrapper .capt {
+  width: inherit;
+  width: calc(100% - (2 * var(--pad)));
+  font-size: var(--XS-font);
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #00000080;
+  font-style: italic;
+}
+
+/* ========== Footer ========== */
+
+.foot {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10vh;
+  min-height: 10vh;
+  padding: var(--pad);
+}
+
+.foot *,
+.foot {
+  font-size: var(--XS-font);
+}
+
+/* ========== Mobile ========== */
+
+@media screen and (max-width: 650px) {
+  .foot {
+    min-height: 0;
+  }
+}
+
+/* 
+#########################
+UNSETING DEFAULTS:
+#########################
+*/
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+button {
+  border: unset;
+  background-color: unset;
+  font-family: unset;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+{
+  "mainTitle": "<insert title>",
+  "sections": [
+    {
+      "subTitle": "<sub section>",
+      "content": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, voluptatem? Itaque hic dignissimos laborum accusantium nostrum deleniti iure exercitationem, expedita corrupti eum quis mollitia beatae velit neque quasi sint. Repellendus nesciunt cumque blanditiis esse quibusdam voluptatem, expedita veritatis, fuga sint debitis inventore quod volu ptates possimus, fugiat qui. Dolor vero neque explicabo officia enim deleniti provident adipisci molestiae.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, voluptatem? Itaque hic dignissimos laborum accusantium nostrum deleniti iure exercitationem, expedita corrupti eum quis mollitia beatae velit neque quasi sint. Repellendus nesciunt cumque blanditiis esse quibusdam voluptatem, expedita veritatis, fuga sint debitis inventore quod volu ptates possimus, fugiat qui. Dolor vero neque explicabo officia enim deleniti provident adipisci molestiae."
+      ]
+    },
+    {
+        "subTitle": "<sub section>",
+        "content": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, voluptatem? Itaque hic dignissimos laborum accusantium nostrum deleniti iure exercitationem, expedita corrupti eum quis mollitia beatae velit neque quasi sint. Repellendus nesciunt cumque blanditiis esse quibusdam voluptatem, expedita veritatis, fuga sint debitis inventore quod volu ptates possimus, fugiat qui. Dolor vero neque explicabo officia enim deleniti provident adipisci molestiae."
+        ]
+      }
+  ]
+}

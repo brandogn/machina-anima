@@ -1,0 +1,41 @@
+@font-face {
+}
+
+* {
+  /* debug: */
+  /* outline: solid 1px rgba(0, 0, 0, 0.445); */
+}
+
+:root {
+  /* Font */
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: monospace;
+  --font-main: monospace;
+  --font-text: monospace;
+  --font-title: Helvetica, Arial, sans-serif;
+
+  /* Font Size */
+  --XL-font: 50px;
+  --L-font: 32px;
+  --M-font: 25px;
+  --N-font: 20px;
+  --S-font: 15px;
+  --XS-font: 12px;
+  /* Doc Settings */
+  --icon-size: 50px;
+  --pad: 15px;
+  --margin: 50px;
+  /* Colors */
+  /* background-color: rgb(214, 235, 234); */
+}
+
+
+@media screen and (max-width: 650px) {
+  :root {
+    /* Font Size */
+    --XL-font: 45px;
+    --L-font: 32px;
+    --M-font: 20px;
+    --N-font: 18px;
+  }
+}
