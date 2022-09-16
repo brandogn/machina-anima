@@ -101,18 +101,22 @@ html {
   margin: var(--pad) var(--pad);
 }
 
-.sub-title {
+.text-wrapper h2 {
+  margin-top: calc(var(--pad) * 4);
+}
+
+h2 {
   font-size: var(--L-font);
   font-weight: bold;
 }
 
-.sub-title .small {
-  font-size: var(--M-font);
-}
-
-.paragraph {
+p {
   font-family: var(--font-text);
   font-size: var(--N-font);
+}
+
+.sub-title .small {
+  font-size: var(--M-font);
 }
 
 /* Assets */
@@ -125,13 +129,16 @@ html {
 
 .text-wrapper img,
 .text-wrapper .capt {
-  width: inherit;
-  width: calc(100% - (2 * var(--pad)));
+  display: block;
+  width: calc(50% - (2 * var(--pad)));
   font-size: var(--XS-font);
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: auto;
   color: #00000080;
   font-style: italic;
+}
+
+.text-wrapper .full {
+  width: calc(100% - (2 * var(--pad)));
 }
 
 /* ========== Footer ========== */

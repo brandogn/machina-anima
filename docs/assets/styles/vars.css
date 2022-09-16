@@ -1,18 +1,18 @@
 @font-face {
-  font-family: "Base Mono Wide";
-  src: url("../font/BaseMonoWideThin_6014.ttf") format("truetype");
+  font-family: Roboto-Mono;
+  src: url("./font/RobotoMono-VariableFont_wght.ttf");
 }
 
-* {
-  /* debug: */
-  /* outline: solid 1px rgba(0, 0, 0, 0.445); */
+@font-face {
+  font-family: Roboto-Mono-Italic;
+  src: url("./font/RobotoMono-Italic-VariableFont_wght.ttf");
 }
 
 :root {
   /* Font */
   font-family: monospace;
   --font-main: monospace;
-  --font-text: courier, monospace;
+  --font-text: Roboto-Mono, monospace;
   --font-title: Helvetica, Arial, sans-serif;
   /* Font Size */
   --XL-font: 50px;
