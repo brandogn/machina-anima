@@ -48,6 +48,10 @@ html {
   align-items: center;
 }
 
+.icon * {
+  text-decoration: unset;
+}
+
 /* ========== Content ========== */
 
 .content {
@@ -141,6 +145,21 @@ p {
   width: calc(100% - (2 * var(--pad)));
 }
 
+table {
+  width: 100%;
+}
+tr {
+  height: 50px;
+}
+td {
+  width: 55%;
+  vertical-align: top;
+}
+td .img-td {
+  margin: 0;
+  width: 100%;
+}
+
 /* ========== Footer ========== */
 
 .foot {
@@ -173,7 +192,6 @@ UNSETING DEFAULTS:
 
 a {
   color: unset;
-  text-decoration: unset;
 }
 
 .url {
