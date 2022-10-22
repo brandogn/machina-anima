@@ -141,6 +141,15 @@ p {
   font-style: italic;
 }
 
+.rotate {
+  transform: rotate(270deg);
+}
+
+img .no-pad {
+  padding: 0 0;
+  margin: 0 0;
+}
+
 .text-wrapper .full {
   width: calc(100% - (2 * var(--pad)));
 }
